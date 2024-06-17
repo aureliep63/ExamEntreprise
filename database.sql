@@ -5,3 +5,7 @@ id INT AUTO_INCREMENT ,
 nom VARCHAR(50) NOT NULL,
 prenom VARCHAR (50) NOT NULL
 );
+
+INSERT INTO employe (nom, prenom) VALUES
+('PEDRO', 'Aurélie'),
+('DRARJI', 'Sofiance');
